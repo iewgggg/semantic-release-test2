@@ -1,0 +1,32 @@
+{
+  "name": "@anyesu/semantic-release-test2",
+  "version": "1.0.0",
+  "description": "semantic-release-test2",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo build success.",
+    "semantic-release": "dotenv -c -- semantic-release",
+    "semantic-release:local": "dotenv -c -- semantic-release --no-ci"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iewgggg/semantic-release-test2.git"
+  },
+  "author": "iewgggg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iewgggg/semantic-release-test2/issues"
+  },
+  "homepage": "https://github.com/iewgggg/semantic-release-test2#readme",
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "conventional-changelog-cmyr-config": "^1.2.3",
+    "dotenv-cli": "^4.0.0",
+    "semantic-release": "^17.2.1"
+  }
+}
