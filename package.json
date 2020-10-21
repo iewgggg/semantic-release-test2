@@ -1,6 +1,7 @@
 {
   "name": "@anyesu/semantic-release-test2",
   "version": "1.0.0",
+  "private": true,
   "description": "semantic-release-test2",
   "main": "src/index.js",
   "scripts": {
@@ -25,6 +26,7 @@
     "src"
   ],
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
     "conventional-changelog-cmyr-config": "^1.2.3",
     "dotenv-cli": "^4.0.0",
     "semantic-release": "^17.2.1"

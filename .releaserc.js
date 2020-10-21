@@ -7,6 +7,13 @@ module.exports = {
         config: "conventional-changelog-cmyr-config",
       },
     ],
+    "@semantic-release/npm",
+    [
+      "@semantic-release/git",
+      {
+        assets: ["package.json"],
+      },
+    ],
     "@semantic-release/github",
   ],
 };
